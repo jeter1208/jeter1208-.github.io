@@ -2,7 +2,7 @@
     width: 100%;
     height: 80px;
     display: flex;
-    background-color: greenyellow;
+    background-color:#72B886;
     position:relative;
 }
 .top{
@@ -11,7 +11,7 @@
     display:flex;
     position: fixed;
     flex-wrap: wrap;
-    background-color:greenyellow;
+    background-color:#72B886;
 }
 .top img{
     width: 120px;
@@ -45,7 +45,7 @@
     width: 45%;
     height: 700px;
     /* font-size: 40px; */
-    background-color: greenyellow;
+    background-color: #72B886;
 }
 .left h1{
     width: 400px;
@@ -173,7 +173,7 @@
 .readmore{
     width: 200px;
     height: 60px;
-    background-color: greenyellow;
+    background-color:#72B886;
     margin: 50px 40px;
     text-align: center;
 }
@@ -185,7 +185,7 @@
 .thirdpirce{
    width: 100%;
    height: 800px; 
-   background-color: greenyellow;
+   background-color: #72B886;
    display: flex;
    flex-wrap: wrap;
    margin: auto;
@@ -253,7 +253,7 @@
 .order{
     width: 200px;
     height: 60px;
-    background-color: greenyellow;
+    background-color: #72B886;
     margin: 30px 20px;
     text-align: center;
 }
