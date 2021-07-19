@@ -1,0 +1,268 @@
+.box{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    background-color: greenyellow;
+    position:relative;
+}
+.top{
+    width: 100%;
+    height: 80px;
+    display:flex;
+    position: fixed;
+    flex-wrap: wrap;
+    background-color:greenyellow;
+}
+.top img{
+    width: 120px;
+    height: 40px;
+    margin: 20px 80px; 
+}
+.warp{
+  width: 400px;
+  height: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.warp ul{
+    height: 40px;
+    display: flex;
+    text-align: center;
+    margin: 30px;
+} 
+.warp ul li a{
+    height: 40px;
+    font-size: 20px;
+    margin: 0px 20px;
+    text-decoration: none;
+    color: white;
+}
+.firstpiece{
+    width: 100%;
+    display: flex;
+}
+.left{
+    width: 45%;
+    height: 700px;
+    /* font-size: 40px; */
+    background-color: greenyellow;
+}
+.left h1{
+    width: 400px;
+    font-size: 25px;
+    /* padding: 60px 85px; */
+    padding-top: 80px;
+    padding-bottom: 50px;
+    padding-left: 85px;
+    color: white;
+}
+.left h2{
+    font-size: 60px;
+    margin: 0px 80px;
+    color: white;
+}
+.left h3{
+    font-size: 20px;
+    color: white;
+    margin: 60px 87px;
+
+}
+.number{
+    width: 120px;
+    height: 60px;
+    display: flex;
+    cursor: pointer;
+    margin: 40px 60px;
+}
+.number span{
+    width: 25px;
+    height: 25px;
+    font-size: 25px;
+    color: white;
+    margin: 0px 25px;
+    
+}
+
+/* .left a .a1{
+   padding-left: 50px;
+}  */
+
+.left p{
+    font-size: 20px;
+    margin: 40px 87px;
+    color: white;
+}
+.right{
+   width: 55%;
+}
+.right img{
+    width: 700px;
+    height: 600px;
+   margin-top: 5px;
+   margin-left: 20px;
+}
+.secondpiece{
+    width: 100%;
+    display: flex;
+}
+.cook{
+    width: 500px;
+    display: flex;
+    /* position: relative; */
+}
+.secondpiece .cook  img{
+    width: 400px;
+    height: 705px;
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right: 0px;
+}
+.name {
+    width: 130px;
+    height: 50px;
+    border: 3px solid gray;
+    margin-top: 200px;
+    margin-left: 60px;
+    margin-right: 0px;
+    /* margin-top: 200px;
+    margin-bottom: 200px;
+    margin-right: 500px;
+    margin-left: 5px; */
+    font-size: 25px;
+}
+.name h2{
+    /* margin: 1px 5px; */
+}
+.name p{
+    /* margin: 0px 5px; */
+}
+.about{
+    width: 500px;
+    /* height: 700px; */
+    /* border: 1px solid red; */
+    margin-top: 0px;
+    margin-left: 80px;
+    /* margin-left: 00px; */
+   
+}
+.about h1{
+    font-size: 20px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.about h2{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.about h3{
+    font-size: 20px;
+    margin: 30px 50px;
+}
+.about p{
+    font-size: 20px;
+    margin: 15px 50px;
+}
+.about a{
+    font-size: 20px;
+    text-decoration: none;
+}
+.readmore{
+    width: 200px;
+    height: 60px;
+    background-color: greenyellow;
+    margin: 50px 40px;
+    text-align: center;
+}
+.readmore a{
+    font-size: 18px;
+    color:white; 
+    line-height: 60px;
+}
+.thirdpirce{
+   width: 100%; 
+   background-color: greenyellow;
+   display: flex;
+   flex-wrap: wrap;
+   margin: auto;
+}
+/* .thirdpirce h2 {
+  width:100% ;
+  height: 100px;
+  font-size: 20px;
+  text-align: center; 
+  color: gray;
+} */
+.sun{
+    width: 100%;
+    height: 200px;
+    margin: auto;
+}
+.sun h2{
+    width: 100%;
+    font-size: 20px;
+    color: gray;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.sun h3{
+    width: 100%;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+.drink{
+    width: 300px;
+    height: 500px;
+    margin: 15px 100px;
+    background-color: white;
+    position: relative;
+}
+.drink img{
+    margin-left: 150px;
+    margin-top: -10px; 
+    position: absolute;   
+}
+.drink h1{
+    font-size: 20px;
+    margin-top: 30px;
+   margin-left: 15px;
+}
+.drink h2{
+    font-size: 60px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.drink h3{
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+.drink p{
+    font-size: 18px;
+    margin: 40px 20px;
+}
+.order{
+    width: 200px;
+    height: 60px;
+    background-color: greenyellow;
+    margin: 30px 20px;
+    text-align: center;
+}
+.order a{
+    font-size: 20px;
+    line-height: 60px;
+    text-decoration: none;
+    color: white;
+}
+.open {
+    margin: 20px 20px;
+}
+.open a{
+    text-decoration: none;
+    color: black;
+}aaaa
